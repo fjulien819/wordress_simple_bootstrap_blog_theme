@@ -1,1 +1,3 @@
-# wordress_simle_bootstrap_blog_theme
+# wordress simple bootstrap blog theme
+
+![screenshot wordress simple bootstrap blog theme](screenshot.png "screenshot wordress simple bootstrap blog theme")
