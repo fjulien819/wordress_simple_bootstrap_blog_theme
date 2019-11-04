@@ -1,0 +1,180 @@
+/*
+Theme Name: Simple Bootstrap Blog
+Theme URI:
+Author: Julien F
+Author URI: https://julienf.fr/
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+:root {
+    --dark: #343a40;
+}
+
+/**
+ * Demo Styles
+ */
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+
+/**
+ * Footer Styles
+ */
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#footer-menu li
+{
+    list-style: none;
+}
+#footer-menu a
+{
+    color: #6c757d ;
+    text-decoration: none;
+}
+
+/**
+ * link Styles
+ */
+
+
+a
+{
+    color: #343a40 ;
+}
+
+
+.page-link {
+    color: var(--dark);
+}
+.page-item.active .page-link
+{
+    background-color: #6c757d;
+    border-color:  #6c757d;
+}
+.page-link:hover {
+
+    color: #6c757d;
+}
+
+.page-link:focus {
+
+    box-shadow: 0 0 0 .2rem rgba(82,88,93,.5);
+
+}
+
+/**
+ * end link Styles
+ */
+
+
+
+
+
+
+
+
+
+.show-post-img p img
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: .25rem !important;
+}
+
+
+
+
+/**************************************************
+        sidebar widget
+ **************************************************/
+.sidebar-card-body ul
+{
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.sidebar-card-body li
+{
+    position: relative;
+    display: block;
+    padding: .20rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+}
+.sidebar-card-body table
+{
+    width: 100%;
+}
+
+.sidebar-card-body .tagcloud,.sidebar-card-body .calendar_wrap, .sidebar-card-body p, .sidebar-card-body form, .sidebar-card-body ul
+{
+    padding: 1.25rem;
+}
+
+h5 .rsswidget
+{
+    color: #ffffff!important;
+}
+/**************************************************
+        end sidebar widget
+ **************************************************/
+
+
+
+
+/**************************************************
+       card style
+ **************************************************/
+.card
+{
+    border: none;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+#footer-menu-list li
+{
+    margin: 6px;
+}
+
+
+
+/**************************************************
+       admin option thème colorpicker-preview style
+ **************************************************/
+#colorpicker-preview
+{
+    min-width: 40px;
+}
+
